@@ -1,9 +1,6 @@
 package io.github.lucasduete;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class App {
@@ -14,7 +11,15 @@ public class App {
 
     public static void main(String[] args) {
 
-        encryptText(1,"abcz'");
+        //Letra A
+        System.out.printf("Letra A:\n");
+        encryptText(10,"Hello World'");
+
+        System.out.printf("\n\n");
+
+        //Letra B
+        System.out.printf("Letra B:\n");
+        encryptText(5,"Hello World'");
     }
 
     private static void encryptText(int key, String plainText) {
